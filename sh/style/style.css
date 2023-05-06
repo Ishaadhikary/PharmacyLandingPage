@@ -233,4 +233,143 @@ input{
     background-image: url(/sh/images/doctor.svg);
 }
 
+/* Website Content */
+
+.affiliation h2, .key-benifits h2{
+    color:#043CAA;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.affiliation{
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    width: 564px;
+    height: 184px;
+    left: 455px;
+    top: 773px;
+    align-content:center;
+    justify-content: center;
+    align-items: center;
+}
+
+.affliation-items{
+    display:flex;
+    flex-direction: row;
+    left:460px;
+    height: 69px;
+    top: 888px;
+    padding-right: 117px;
+}
+.affliation-items .juhel{
+    padding-right: 117px;
+    left: 438px;
+    right: 879px;
+    
+}
+.affliation-items .major{
+    height: 69px;
+    padding-right: 117px;
+    left: 678px;
+    right: 657px;
+}
+.affliation-items .gsk{
+    height: 54px;
+    left: 940px;
+    right: 438px;
+    
+}
+
+hr{
+    height: 3px;background: radial-gradient(47.25% 15652% at 2.75% 100%, #043CAA 0%, #043CAA 95.03%, #1BC768 98.36%);
+    border-radius: 50px;
+    margin: 10px 0;
+    border:none;
+}
+
+.key-benifits{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 1018.05px;
+    height: 1654.7px;
+    left: 211px;
+    top: 1070px;
+    align-items: center;
+}
+
+.benifit{
+    display: flex;
+    align-self: flex-start;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 367.8px;
+    height: 298px;
+    flex:1;
+    padding: 20px;
+}
+.text li{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    height: 12px;
+    line-height: 25px;
+    padding-bottom: 20px;
+    list-style-type: none;
+    background-image: url('/sh/images/libullet.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 50px; 
+    font-size: 18px;
+}
+
+.prescription-button{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 35px;
+    color:#1BC768;
+    gap: 10px;
+    height: 47px;
+    border: 1px solid #1BC768;
+    border-radius: 50px;
+    background: none;
+    margin-top:30px;
+    width: 238px;
+}
+
+
+.benifit img{
+    width: 511.25px;
+    height: 518.16px;
+    flex:1;
+}
+
+.text h3{
+    font-style: bold;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #043CAA;
+    width: 242px;
+
+}
+
+.benifite-onePlace img{
+    position: absolute;
+    width: 511.25px;
+    height: 518.16px;
+}
+
+
 

@@ -1,0 +1,2 @@
+Questions:
+While measuring the components of img it is measuring the top from header
