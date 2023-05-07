@@ -1,3 +1,4 @@
+/* Overall css */
 body{
     margin: 0 auto;
     background: #F3F7FF;
@@ -6,6 +7,13 @@ body{
     color:#043CAA;
 }
 
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color:inherit
+}
+
+/* Start of Header Container Css */
 header{
     display: flex;
     justify-content: center;
@@ -60,8 +68,6 @@ ul{
     line-height: 22px;
     justify-content: space-between;
     align-items: stretch;
-
-
 } 
 
 ul li{
@@ -220,6 +226,7 @@ button.drug-button:hover{
     cursor: pointer;
 
 }
+
 input{
     border:none;
 }
@@ -234,13 +241,16 @@ input{
     background-image: url(/sh/images/doctor.svg);
 }
 
-/* Website Content */
+/* End Of Header Css */
+
+/* Website Content Css */
 
 .affiliation h2, .key-benifits h2{
     color:#043CAA;
     font-size: 36px;
     font-weight: bolder;
 }
+
 .affiliation{
     position: absolute;
     display:flex;
@@ -262,27 +272,30 @@ input{
     top: 888px;
     padding-right: 117px;
 }
+
 .affliation-items .juhel{
     padding-right: 117px;
     left: 438px;
     right: 879px;
     
 }
+
 .affliation-items .major{
     height: 69px;
     padding-right: 117px;
     left: 678px;
     right: 657px;
 }
+
 .affliation-items .gsk{
     height: 54px;
     left: 940px;
-    right: 438px;
-    
+    right: 438px;   
 }
 
 hr{
-    height: 3px;background: radial-gradient(47.25% 15652% at 2.75% 100%, #043CAA 0%, #043CAA 95.03%, #1BC768 98.36%);
+    height: 3px;
+    background: radial-gradient(47.25% 15652% at 2.75% 100%, #043CAA 0%, #043CAA 95.03%, #1BC768 98.36%);
     border-radius: 50px;
     margin: 10px 0;
     border:none;
@@ -363,7 +376,6 @@ hr{
     line-height: 33px;
     color: #043CAA;
     width: 242px;
-
 }
 
 .full-container{
@@ -376,7 +388,9 @@ hr{
     position: absolute;
     align-items: center;
 }
+/* End of Main-Website Container Css  */
 
+/* Medicine Image Container Css */
 .full-container img{
     position: absolute;
     align-self: flex-start;
@@ -471,6 +485,9 @@ hr{
     color: black;
     box-shadow:7px 7px 13px rgba(64, 193, 4, 0.25);
 }
+/* End of Medicine Image Container Css */
+
+/* Footer Css */
 
 footer{
     display: flex;
@@ -677,6 +694,8 @@ footer{
     font-size: 16px;
     line-height: 22px;
 }
+
+/* End of Footer css */
 
     
 
