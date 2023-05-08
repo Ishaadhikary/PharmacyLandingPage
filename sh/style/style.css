@@ -23,7 +23,7 @@ header{
     left: 0px;
     top: 0px;
     background-size:cover;
-    background-image:url(/sh/images/headercover.svg);
+    background-image:url(../images/headercover.svg);
     color:white;
 }
 
@@ -238,7 +238,7 @@ input{
     height: 500px;
     left: 885px;
     top: 179px;
-    background-image: url(/sh/images/doctor.svg);
+    background-image: url(../images/doctor.svg);
 }
 
 /* End Of Header Css */
@@ -339,7 +339,7 @@ hr{
     line-height: 25px;
     padding-bottom: 20px;
     list-style-type: none;
-    background-image: url('/sh/images/libullet.svg');
+    background-image: url('../images/libullet.svg');
     background-size: contain;
     background-repeat: no-repeat;
     padding-left: 50px; 
